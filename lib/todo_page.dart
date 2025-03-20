@@ -58,19 +58,18 @@ class _TodoPageState extends State<TodoPage> {
                           'Player',
                           style: TextStyle(
                             color: Color.fromARGB(255, 0, 0, 0),
-                            fontWeight: FontWeight.bold,
                             fontFamily: 'Poppins',
-                            fontSize: 20,
+                            fontSize: 15,
                           ),
                         ),
                         border: OutlineInputBorder(),
                         hintText: 'Masukkan tugas yang ingin dilakukan',
                         hintStyle: const TextStyle(color: Colors.grey),
                         enabledBorder: const OutlineInputBorder(
-                          borderSide: BorderSide(color: Color.fromARGB(255, 0, 0, 0)),
+                          borderSide: BorderSide(color: Color.fromARGB(255, 0, 0, 0), width: 2),
                         ),
                         focusedBorder: const OutlineInputBorder(
-                          borderSide: BorderSide(color: Color.fromARGB(255, 0, 0, 0), width: 3),
+                          borderSide: BorderSide(color: Color.fromARGB(255, 0, 0, 0), width: 2),
                         ),
                       ),
                       style: const TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
